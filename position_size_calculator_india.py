@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Position Size Calculator (India)", layout="centered")
 
-st.title("📈 Position Size Calculator (India)Salil")
+st.title("📈 Position Size Calculator-Salil")
 st.markdown("Stop Loss is based on **option premium**, not spot price.")
 
 capital = st.number_input("Capital (₹)", min_value=0, value=100000, step=1000)
