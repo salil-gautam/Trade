@@ -1,7 +1,7 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="Position Size Calculator (India)", layout="centered")
+st.set_page_config(page_title="Option Position Size Calculator (India)", layout="centered")
 
 st.title("📈 Position Size Calculator (India)")
 st.markdown("Stop Loss is now based on **option premium**, not spot price.")
